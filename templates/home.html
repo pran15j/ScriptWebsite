@@ -1,0 +1,569 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- <div class="hero-wrap js-fullheight">
+  <div class="overlay"></div>
+  <div class="container-fluid px-0">
+    <div class="row d-md-flex no-gutters slider-text align-items-end js-fullheight justify-content-end">
+      <img class="one-third align-self-end order-md-last img-fluid" src="{% static 'images/undraw_work_time_lhoj.svg' %}" alt="">
+      <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
+        <div class="text mt-5">
+          <p class="mb-4 mt-5 pt-5">We have <span class="number" data-number="200000">0</span> great job offers you deserve!</p>
+          <h1 class="mb-5">Largets Job Site In The World</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- <br>
+<br>
+<br>
+<br> -->
+
+
+
+<div class="slidercontainer">  
+  <div class="showSlide fadee"> 
+      <img src="{% static 'images/1.JPG' %}" style="height:100vh; width:100vw" />  
+  </div>  
+
+  <div class="showSlide fadee">
+      <img src="{% static 'images/2.JPG' %}" style="height:100vh; width:100vw"/>
+  </div>  
+
+  <div class="showSlide fadee">  
+      <img src="{% static 'images/3.JPG' %}" style="height:100vh; width:100vw" />  
+  </div>  
+
+  <div class="showSlide fadee">  
+      <img src="{% static 'images/4.JPG' %}" style="height:100vh; width:100vw" />  
+  </div>  
+</div>  
+
+
+<section class="ftco-section bg-light">
+  <!-- <span class="obr"></span> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 pr-lg-5">
+        <div class="row justify-content-center pb-3">
+          <div class="col-md-12 heading-section ftco-animate" >
+            <!-- <span class="subheading">Events</span> -->
+            <h2 class="mb-4">Upcoming Events</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 ftco-animate">
+            <div class="job-post-item py-4 d-block d-lg-flex align-items-center">
+              <div class="one-third mb-4 mb-md-0">
+                <div class="job-post-item-header d-flex align-items-center">
+                  <h2 class="mr-3 text-black">Hack Jammu</h2>
+                  <!-- <div class="badge-wrap">
+                   <span class="bg-primary text-white badge py-2 px-3">Hackathon</span>
+                  </div> -->
+                </div>
+                <div class="job-post-item-body d-block d-md-flex">
+                  <div class="mr-3"><span class="icon-layers"></span>Hackathon</div>
+                  <div><span class="icon-my_location"></span> <span>Jammu, India</span></div>
+                </div>
+              </div>
+
+              <div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+                <!-- <div>
+                  <a href="#" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                    <span class="icon-heart"></span>
+                  </a>
+                </div> -->
+                <a href="https://www.hackinjammu.com/" class="btn py-2" style="background-color: powderblue;">Register</a>
+              </div>
+            </div>
+          </div><!-- end -->
+
+          <div class="col-md-12 ftco-animate">
+            <div class="job-post-item py-4 d-block d-lg-flex align-items-center">
+              <div class="one-third mb-4 mb-md-0">
+                <div class="job-post-item-header d-flex align-items-center">
+                  <h2 class="mr-3 text-black">Hack Delhi</h2>
+                  <!-- <div class="badge-wrap">
+                   <span class="bg-warning text-white badge py-2 px-3">Hackathon</span>
+                  </div> -->
+                </div>
+                <div class="job-post-item-body d-block d-md-flex">
+                  <div class="mr-3"><span class="icon-layers"></span>Hackathon</div>
+                  <div><span class="icon-my_location"></span> <span>Delhi, India</span></div>
+                </div>
+              </div>
+
+              <div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+                <!-- <div>
+                  <a href="#" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                    <span class="icon-heart"></span>
+                  </a>
+                </div> -->
+                <a href="https://www.delhihacks.xyz/" class="btn py-2" style="background-color: powderblue;">Register</a>
+              </div>
+            </div>
+          </div><!-- end -->
+
+          
+
+        </div>
+      </div>
+      <!-- <div class="col-lg-3 sidebar">
+        <div class="row justify-content-center pb-3">
+          <div class="col-md-12 heading-section ftco-animate">
+            <span class="subheading">Recruitment agencies</span>
+            <h2 class="mb-4">Top Recruitments</h2>
+          </div>
+        </div>
+        <div class="sidebar-box ftco-animate">
+          <div class="border">
+            <a href="#" class="company-wrap"><img src="{% static 'images/company-1.jpg' %}" class="img-fluid" alt="Colorlib Free Template"></a>
+            <div class="text p-3">
+              <h3><a href="#">Google Company</a></h3>
+              <p><span class="number">500</span> <span>Open position</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-box ftco-animate">
+          <div class="border">
+            <a href="#" class="company-wrap"><img src="{% static 'images/company-2.jpg' %}" class="img-fluid" alt="Colorlib Free Template"></a>
+            <div class="text p-3">
+              <h3><a href="#">Facebook Company</a></h3>
+              <p><span class="number">700</span> <span>Open position</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-box ftco-animate">
+          <div class="border">
+            <a href="#" class="company-wrap"><img src="{% static 'images/company-3.jpg' %}" class="img-fluid" alt="Colorlib Free Template"></a>
+            <div class="text p-3">
+              <h3><a href="#">IT Programming INC</a></h3>
+              <p><span class="number">700</span> <span>Open position</span></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- <section class="ftco-section img" style="background-image: url({% static 'images/bg_1.jpg' %}); background-position: top center;"> -->
+  <section class="ftco-section img" style="background-color:powderblue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="browse-job p-5">
+            <span class="icon-search2 icon"></span>
+            <span class="subheading">Our Aim</span>
+            <h2>Learn, Leap and Lead</h2>
+            <p>Script aspires to promote education in an interactive manner so that individuals can learn something new and interesting. We aim to build a community by bringing together professionals and students with the desire to learn more and conquer heights.  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="ftco-section bg-light">
+    <!-- <span class="obr"></span> -->
+    <div class="row justify-content-center pb-3">
+      <div class="col-md-12 heading-section ftco-animate" >
+        <!-- <span class="subheading">Events</span> -->
+        <h2 class="mb-4">Script Foundation App now on Playstore!</h2>
+      </div>
+    </div>
+    <div class="container">
+      <iframe style="height: 60vh;width: 75vw;" src="https://www.youtube.com/embed/OuApLhFkCQ0">
+      </iframe>
+    </div>
+  </section>
+
+
+  <section class="ftco-section bg-light">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h2>Here is what we bring to you !</h2>
+          <!-- <span class="subheading">BlahBlahBlah</span> -->
+        </div>
+      </div>
+      <div class="row d-flex">
+
+        
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry align-self-stretch" style="background-color: 	#F0F0F0; border-radius: 1rem;padding: 25px;">
+            <a href="https://www.hackinindia.com/" class="block-20" style="background-image: url({% static 'images/image_1.jpg' %});">
+            </a>
+            <div class="text mt-3" style="text-align: center;">
+              <div class="meta mb-2">
+                <div style="color:black; font-weight: 10000px; font-size:19px">Opportunities to grow</div><br>
+              </div>
+              <div>We are a group of success driven people with exceptional skills and diverse experiences. Our team of experts impart quality enriched education to individuals with the urge to learn.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry align-self-stretch" style="background-color: 	#F0F0F0; border-radius: 1rem;padding: 25px;">
+            <a href="https://www.hackinindia.com/" class="block-20" style="background-image: url({% static 'images/image_1.jpg' %});">
+            </a>
+            <div class="text mt-3" style="text-align: center;">
+              <div class="meta mb-2">
+                <div style="color:black; font-weight: 10000px; font-size:19px">Internship offerings</div><br>
+              </div>
+              <div>Our community comes up with immense internship opportunities to help you shape your future and attain your goals. We lead you through the right path into the right hands so that you can polish your skills and use them effectively and profitably.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry align-self-stretch" style="background-color: 	#F0F0F0; border-radius: 1rem;padding: 25px;">
+            <a href="https://www.hackinindia.com/" class="block-20" style="background-image: url({% static 'images/image_1.jpg' %});">
+            </a>
+            <div class="text mt-3" style="text-align: center;">
+              <div class="meta mb-2">
+                <div style="color:black; font-weight: 10000px; font-size:19px">Regular Meetups</div><br>
+              </div>
+              <div>We hold regular meetups for our chapters where we discuss the latest and upcoming technologies, thereby learning about the same. Our community keeps on expanding and these meetups also serve as a symbol of our progress.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry align-self-stretch" style="background-color: 	#F0F0F0; border-radius: 1rem;padding: 25px;">
+            <a href="https://www.hackinindia.com/" class="block-20" style="background-image: url({% static 'images/image_1.jpg' %});">
+            </a>
+            <div class="text mt-3" style="text-align: center;">
+              <div class="meta mb-2">
+                <div style="color:black; font-weight: 10000px; font-size:19px">Educational Events</div><br>
+              </div>
+              <div>We offer numerous educational activities including workshops, webinars and bootcamp. We also promote and reward the talent of enthusiastic individuals through our various ventures like hackathons. We are driven by the motive to spread quality education to passionate individuals.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry align-self-stretch" style="background-color: 	#F0F0F0; border-radius: 1rem;padding: 25px;">
+            <a href="https://www.hackinindia.com/" class="block-20" style="background-image: url({% static 'images/image_1.jpg' %});">
+            </a>
+            <div class="text mt-3" style="text-align: center;">
+              <div class="meta mb-2">
+                <div style="color:black; font-weight: 10000px; font-size:19px">Heuristic learning approach</div><br>
+              </div>
+              <div>We serve as a platform for you to discover yourself through exploring your talents in the technical field. We put forward immense opportunities for you to gain knowledge by practical experience.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry align-self-stretch" style="background-color: 	#F0F0F0; border-radius: 1rem;padding: 25px;">
+            <a href="https://www.hackinindia.com/" class="block-20" style="background-image: url({% static 'images/image_1.jpg' %});">
+            </a>
+            <div class="text mt-3" style="text-align: center;">
+              <div class="meta mb-2">
+                <div style="color:black; font-weight: 10000px; font-size:19px">A community to learn, grow and prosper</div><br>
+              </div>
+              <div>We are here to help you learn, leap and lead. Amongst like minded people, you will get to learn from others and discover your immense potential. We will help you to grow and achieve your goals.</div>
+            </div>
+          </div>
+        </div>
+
+
+      
+    </div>
+
+  </section>
+
+<!-- <section class="ftco-section services-section bg-primary">
+  <h2>weff</h2>
+  <div class="container">
+    <div class="row d-flex">
+      
+      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+        <div class="media block-6 services d-block">
+          <div class="icon"><span class="flaticon-resume"></span></div>
+          <div class="media-body">
+            <h3 class="heading mb-3">Search Millions of Jobs</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+        <div class="media block-6 services d-block">
+          <div class="icon"><span class="flaticon-collaboration"></span></div>
+          <div class="media-body">
+            <h3 class="heading mb-3">Easy To Manage Jobs</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+        <div class="media block-6 services d-block">
+          <div class="icon"><span class="flaticon-promotions"></span></div>
+          <div class="media-body">
+            <h3 class="heading mb-3">Top Careers</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+        <div class="media block-6 services d-block">
+          <div class="icon"><span class="flaticon-employee"></span></div>
+          <div class="media-body">
+            <h3 class="heading mb-3">Search Expert Candidates</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section text-center ftco-animate">
+        <span class="subheading">Job Categories</span>
+        <h2 class="mb-4">Top Categories</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 ftco-animate">
+        <ul class="category">
+          <li><a href="#">Web Development <br><span class="number">354</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Graphic Designer <br><span class="number">143</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Multimedia <br><span class="number">100</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Advertising <br><span class="number">90</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 ftco-animate">
+        <ul class="category">
+          <li><a href="#">Education &amp; Training <br><span class="number">100</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">English <br><span class="number">200</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Social Media <br><span class="number">300</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Writing <br><span class="number">150</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 ftco-animate">
+        <ul class="category">
+          <li><a href="#">PHP Programming <br><span class="number">400</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Project Management <br><span class="number">100</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Finance Management <br><span class="number">222</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Office &amp; Admin <br><span class="number">123</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 ftco-animate">
+        <ul class="category">
+          <li><a href="#">Web Designer <br><span class="number">324</span> <span>Open position</span></span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Customer Service <br><span class="number">564</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Marketing &amp; Sales <br><span class="number">234</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+          <li><a href="#">Software Development <br><span class="number">425</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+
+<section class="ftco-section testimony-section" >
+  <div class="container" >
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 text-center heading-section ftco-animate">
+        <span class="subheading"><h1 style="color:powderblue;">TESTIMONIALS</h1></span>
+        <!-- <h2 class="mb-4">BlahBlahBlah</h2> -->
+      </div>
+    </div>
+    <div class="row ftco-animate" >
+      <div class="col-md-12">
+        <div class="carousel-testimony owl-carousel ftco-owl" >
+
+          <div class="item"  >
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/PranjaliSingh.JPG' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left" aria-hidden="true"  style="color:aqua"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">Pranjali Singh</p>
+                <span class="position" style="color: powderblue;">Chapter Lead Noida</span>
+                <p class="mb-4">Steve Jobs said it's not the faith in technology rather the faith in people and Script as a community aspires an individual to grow and develop. Since the day I joined I haven't stopped learning , not even for a single day and thus growing and enhancing my skills for the long run.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item"  >
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/VineethM.JPG' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left" aria-hidden="true"  style="color:aqua"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">M. Vineeth</p>
+                <span class="position" style="color: powderblue;">Chapter Lead Ghaziabad</span>
+                <p class="mb-4">Starting my journey as a Chapter Lead, it was a lovely experience. Within 2 months I could see exponential growth in my expertise as I am able to explore more in the areas like mentoring in hackathons, organizing events, managing teams, building strong connections etc. The best part is that the founders are always there to guide you.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item"  >
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/DeepanshuJain.jpeg' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left" aria-hidden="true"  style="color:aqua"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">Deepanshu Jain</p>
+                <span class="position" style="color: powderblue;">Chapter Lead Dheradun</span>
+                <p class="mb-4">It is more than a privilege to work with the Script Foundation. The Script Foundation believes that progress can be made through progressive thinking, radical leadership and continuous action. That's why working with the Script Foundation I was able to learn teamwork and work as a Dehradun Chapter Leader, Script helps to develop leadership skills.  I'm thankful that I'm a part of the Script Foundation.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item"  >
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/NandanaSreeraj.jpeg' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left" aria-hidden="true"  style="color:aqua"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">Nandana Sreeraj</p>
+                <span class="position" style="color: powderblue;">Content Writer</span>
+                <p class="mb-4">I joined Script as a content writer. Script is an amazing platform for booming talents to polish themselves. Learn, Leap and Lead is the motto that drives the community. Script offers immense opportunities to explore and find oneself. The hackathons, bootcamps, workshops and what not, each and every event conducted by Script had always been beneficial to a lot of people who had the urge to learn. My journey with Script was always beautiful and will always be.                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item"  >
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/HarshBardhanMishra.png' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left" aria-hidden="true"  style="color:aqua"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">Harsh Bardhan Mishra</p>
+                <span class="position" style="color: powderblue;">Chapter Lead Chennai</span>
+                <p class="mb-4">I have been associated with Script Foundation as the Mentor for “Hack in India”, a 24-hours Hackathon, and later as a Chapter Lead for Script Foundation Chennai. As part of a rising community, I have been part of a versatile and flexible time with whom it was a pleasure working with. Working on the side of Scripters has helped me gain a unique perspective of how Communities can shape a Developer’s life and bring out new opportunities to delve into. Script Foundation has helped me explore those hidden opportunities and it is a pleasure to work with everyone here.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="item"  >
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/person_1.jpg' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left" aria-hidden="true"  style="color:aqua"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">XYZ</p>
+                <span class="position" style="color: powderblue;">Program Manager</span>
+                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div> -->
+          
+
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="ftco-section ftco-candidates bg-primary">
+  <div class="container">
+    <div class="row justify-content-center pb-3">
+      <div class="col-md-10 heading-section heading-section-white text-center ftco-animate">
+        <span class="subheading">Our Team</span>
+        <h2 class="mb-4">Our Team</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 ftco-animate">
+        <div class="carousel-candidates owl-carousel">
+
+          <div class="item">
+            <a href="#" class="team text-center">
+              <div class="img" style="background-image: url({% static 'images/person_4.jpg' %});"></div>
+              <h2>Nicole Simon</h2>
+              <span class="position">Western City, UK</span>
+            </a>
+          </div>
+          <div class="item">
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/person_2.jpg' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="icon-quote-left"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">XYZ</p>
+                <span class="position">Program Manager</span>
+                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimony-wrap py-4 pb-5">
+              <div class="user-img mb-4" style="background-image: url({% static 'images/person_2.jpg' %})">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="icon-quote-left"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p class="name">XYZ</p>
+                <span class="position">Program Manager</span>
+                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+          
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+<section class="ftco-section-parallax">
+  <div class="parallax-img d-flex align-items-center">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          <h2>Subcribe to our Newsletter</h2>
+          <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p> -->
+          <div class="row d-flex justify-content-center mt-4 mb-4">
+            <div class="col-md-12">
+              <form action="#" class="subscribe-form">
+                <div class="form-group d-flex">
+                  <input type="text" class="form-control" placeholder="Enter email address">
+                  <input type="submit" value="Subscribe" class="submit px-3">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
